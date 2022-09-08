@@ -1,0 +1,44 @@
+.logo-container {
+  padding: 1em;
+}
+
+.logo-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-letters {
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 800;
+  text-align: left;
+  display: flex;
+  gap: 0.3em;
+}
+
+.logo {
+  font-size: 1em;
+  color: yellow;
+  animation: animation-note 4s ease infinite;
+}
+
+@keyframes animation-note {
+  0% {
+    color: #fca312;
+  }
+  20% {
+    color: #fca312;
+  }
+  40% {
+    color: #ffbf57;
+  }
+  60% {
+    color: #ffbf57;
+  }
+  80% {
+    color: #fab443;
+  }
+  100% {
+    color: #fca312;
+  }
+}

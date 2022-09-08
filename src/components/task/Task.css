@@ -1,0 +1,55 @@
+.task-container {
+  width: 100%;
+  min-height: 7em;
+  border: 0.2em solid red;
+  color: #fff;
+  display: flex;
+  border-radius: 1.5em;
+  justify-content: space-between;
+  align-items: center;
+  animation: animation-list 3s linear infinite;
+  padding: 1em;
+}
+
+@keyframes animation-list {
+  0% {
+    border: 0.3em solid #556ff7;
+  }
+  20% {
+    border: 0.3em solid #7a8ef3;
+  }
+  40% {
+    border: 0.3em solid #9dabf5;
+  }
+  60% {
+    border: 0.3em solid #9dabf5;
+  }
+  80% {
+    border: 0.3em solid #7a8ef3;
+  }
+  100% {
+    border: 0.3em solid #556ff7;
+  }
+}
+
+.task-text-container {
+  font-size: 2.5em;
+  padding: 0 1em;
+  flex: 1;
+}
+
+.delete-icon {
+  font-size: 3em;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.delete-icon:hover {
+  color:#ff9292;
+  transform: scale(1.10);
+}
+
+.task-done {
+  color: #556ff7;
+  text-decoration: line-through;
+}

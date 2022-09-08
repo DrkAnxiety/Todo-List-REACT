@@ -1,0 +1,30 @@
+.form-task {
+    display: flex;
+    gap: 0.5em;
+}
+
+.text-inp-form-task {
+    border: none;
+    outline: none;
+    padding: 0 1em;
+    width: 30em;
+    height: 4em;
+    border-radius: 1em;
+    font-size: 1.6em;
+}
+
+.btn-form-task {
+    background-color: #556ff7;
+    width: 9em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.6em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.btn-form-task:hover {
+    background-color: transparent;
+}
